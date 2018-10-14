@@ -1,0 +1,44 @@
+.title-logo {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    text-align: center;
+  }
+  .img-responsive {
+    margin: 0 auto;
+  }
+  .title {
+    text-align: center;
+  }
+  .title-logo {
+    margin-top: 0;
+  }
+  .title-super {
+    margin-top: 0px;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49; 
+  font-weight: 300;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.text-muted {
+  color: #7d97ad;
+}
+
+.title-super {
+  font-size: 44px;
+}
+
+.main-image {
+  border: 5px solid white;
+  border-radius: 12px;
+}

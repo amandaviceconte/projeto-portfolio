@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Puppy Portfolio</title>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <header class="row">
+        <picture class="col-md-6">
+          <img class="img-responsive title-logo" src="./images/flowericon.png" alt="Flower logo">
+        </picture>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title title-super">Amanda Viceconte</h1>
+          <h3 class="title">Projeto Front-end</h3>
+        </div>
+      </header>
+
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <picture class="col-md-12">
+          <source media="(max-width: 991px)" srcset="./images/puppy-smaller.jpg">
+          <img class="img-responsive center-block main-image" src="./images/puppy.jpg" alt="Puppy running">
+        </picture>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted text-center">Featured Work</h2>
+        </div>
+      </div>
+
+      <section class="row text-center">
+        <!-- Work 1 -->
+        <article class="col-md-4">
+          <picture>
+            <img class="img-responsive" src="./images/tic-tac-toe.png" alt="Tic tac toe game" data-toggle="modal" data-target="#project1">
+          </picture>
+          <h3 class="text-uppercase">Tic Tac Toe</h3>
+          <p>
+            <a href="https://github.com/amandaviceconte/tictactoe">Link to project</a>
+          </p>
+        </article>
+        <!-- Work 2 -->
+        <article class="col-md-4">
+          <picture>
+            <img class="img-responsive" src="./images/husky.jpg" alt="Huskies" data-toggle="modal" data-target="#project2">
+          </picture>
+          <h3 class="text-uppercase">Lorem Ipsum</h3>
+          <p>
+            <a href="https://github.com/amandaviceconte/udacity-project3">Link to project</a>
+          </p>
+        </article>
+        <!-- Work 3 -->
+        <article class="col-md-4">
+          <picture>
+            <img class="img-responsive" src="./images/doggy.jpg" alt="Cute dog" data-toggle="modal" data-target="#project3">
+          </picture>
+          <h3 class="text-uppercase">Lorem Ipsum</h3>
+          <p>
+            <a href="https://github.com/amandaviceconte/udacity-project3">Link to project</a>
+          </p>
+        </article>
+      </section>
+    </div>
+
+    <!-- Modal 1 -->
+    <div class="modal fade text-center" id="project1" tabindex="-1" role="dialog" aria-labelledby="ticTacToe" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="ticTacToe">Jogo da Velha</h4>
+          </div>
+          <picture class="modal-body">
+            <img class="img-responsive center-block" src="./images/tic-tac-toe.png" alt="Tic tac toe game"> Este foi o meu primeiro jogo. Aprendi muito sobre HTML, CSS e JavaScript.
+          </picture>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal fade text-center" id="project2" tabindex="-1" role="dialog" aria-labelledby="huskyApp" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="huskyApp">Lorem Ipsum</h4>
+          </div>
+          <picture class="modal-body">
+            <img class="img-responsive center-block" src="./images/husky.jpg" alt="Huskies"> Este foi o meu primeiro projeto nesta aula. Aprendi muito sobre HTML, CSS e Bootstrap.
+          </picture>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="modal fade text-center" id="project3" tabindex="-1" role="dialog" aria-labelledby="doggyApp" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="doggyApp">Lorem Ipsum</h4>
+          </div>
+          <picture class="modal-body">
+            <img class="img-responsive center-block" src="./images/doggy.jpg" alt="Cute dog"> Este foi meu primeiro projeto nesta aula. Aprendi muito sobre HTML, CSS e Bootstrap.
+          </picture>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  </html>
